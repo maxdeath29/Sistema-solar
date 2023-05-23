@@ -1,0 +1,82 @@
+@import url("star.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.universo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.universo div {
+    display: flex;
+    height: 90px;
+    margin: 8%;
+    position: relative;
+    left: 130px;
+    transition: transform 0.9s ease;
+}
+
+.universo > div:hover {
+    transform: scale(1.2);
+}
+
+#universo-sol {
+    display: flex;
+    height: 50%;
+    margin-left: -400px;
+}
+
+#universo-mercurio {
+    display: flex;
+    height: 12px;
+}
+
+#universo-venus {
+    display: flex;
+    height: 20px;
+}
+
+#universo-terra {
+    display: flex;
+    height: 25px;
+}
+
+#universo-marte {
+    display: flex;
+    height: 18px;
+}
+
+#universo-jupiter {
+    display: flex;
+    height: 110px;
+}
+
+#universo-saturno {
+    display: flex;
+    height: 275px;
+}
+
+#universo-urano {
+    display: flex;
+    height: 35px;
+}
+
+#universo-netuno {
+    display: flex;
+    height: 35px;
+}

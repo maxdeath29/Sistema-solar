@@ -1,0 +1,31 @@
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #ffffff; /* Cor das estrelas */
+}
+  
+.cross-star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #ffffff; /* Cor das estrelas em formato de cruz */
+    opacity: 0;
+    transform: rotate(45deg);
+}
+  
+.blinking {
+    animation: blinking 5s infinite;
+}
+  
+@keyframes blinking {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
